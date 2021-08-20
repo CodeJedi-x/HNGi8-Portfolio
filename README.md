@@ -1,2 +1,2 @@
-# HNGi8-Repo
-Files for the HNG internship
+# Portfolio
+Portfolio and program to print a name for stage 2 the HNG tasks

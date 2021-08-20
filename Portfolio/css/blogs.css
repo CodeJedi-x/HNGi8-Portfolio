@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Catamaran&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bgColor: rgb(10, 25, 47);
+  --headersFont: rgb(204, 214, 246);
+  --FooterBgClr: rgb(111, 220, 191);
+  --blogSection: rgb(28, 25, 56);
+  --btnClr: rgb(174, 143, 219);
+  --aboutsec: rgb(254, 248, 180);
+  --floats: rgb(247, 247, 247);
+}
+
+body {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  background-color: var(--floats);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 50px;
+  background-color: rgb(111, 220, 191);
+  position: fixed;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  font-family: "Press Start 2P", cursive;
+  font-size: 0.6rem;
+  /* transform: scale(1); */
+  margin-left: 15px;
+}
+
+.main__container {
+  padding: 0 100px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.section__container {
+}
+
+.header__container {
+  margin: 100px auto 50px;
+  height: 170px;
+  width: 480px;
+  box-shadow: 7px 11px 0px 2px rgba(0, 0, 0, 0.75);
+  border: 2px solid #000;
+  border-radius: 1px;
+}
+
+.__container {
+  width: auto;
+  margin: auto auto;
+}
+
+img {
+  height: 150px;
+  width: 150px;
+  border-radius: 20px;
+  padding: 20px;
+  border-radius: 25px;
+}

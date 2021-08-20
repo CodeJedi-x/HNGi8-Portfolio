@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Hello</title>
+    <style>
+      .container {
+        position: absolute;
+        top: 40%;
+        left: 50%;
+      }
+      button {
+        padding: 20px;
+        border-radius: 5px;
+        border-color: rebeccapurple;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div id="log_name">
+        <button id="btn">Click to reveal name</button>
+      </div>
+    </div>
+  </body>
+  <script>
+    let logName = document.getElementById("log_name");
+    const btn = document.getElementById("btn");
+    const Name = "Mfoniso Umana";
+    btn.addEventListener("click", () => {
+      logName.textContent = `Hello, I'm ${Name}`;
+      logName.style.backgroundColor = "lightgreen";
+      logName.style.fontSize = "2rem";
+    });
+  </script>
+</html>

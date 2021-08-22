@@ -415,12 +415,16 @@ h6 {
 
 .headings__align {
   padding-top: 60px;
-  padding-bottom: 40px;
+  padding-bottom: 25px;
 }
+
+
 
 .skills__lists ul {
   list-style: none;
   padding-top: 10px;
+  padding-bottom: 50px;
+
 }
 
 .headings {
@@ -446,6 +450,7 @@ h6 {
   background-color: var(--aboutsec);
   height: 100vh;
   border: 10px solid var(--btnClr);
+
 }
 
 p {
@@ -610,8 +615,9 @@ p {
   .headings {
     font-size: 2rem;
   }
-  .headings__align {
-    padding-bottom: 20px;
+ 
+  .About__section{
+    height:  100%;
   }
   .blog {
     padding-top: 3.5em;

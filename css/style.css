@@ -386,7 +386,7 @@ a:link {
 
 a:active,
 a:visited {
-  color: #000;
+  color: var(--btnClr);
 }
 .header__container {
   padding: 200px 50px;
